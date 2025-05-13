@@ -1,11 +1,17 @@
 artifacts_root: artifacts
 
 
+ #data_ingestion:
+  #root_dir: artifacts/data_ingestion
+  #source_URL: https://github.com/kuru-krishna/chicken/raw/refs/heads/main/dataset.zip
+  #local_data_file: artifacts/data_ingestion/data.zip
+  #unzip_dir: artifacts/data_ingestion
+
 data_ingestion:
   root_dir: artifacts/data_ingestion
-  source_URL: https://github.com/kuru-krishna/chicken/raw/refs/heads/main/dataset.zip
+  source_URL: https://drive.google.com/file/d/1UHmcgFCaNvyCFs65-3scHFABfJ1r90FB/view?usp=sharing
   local_data_file: artifacts/data_ingestion/data.zip
-  unzip_dir: artifacts/data_ingestion
+  unzip_dir: artifacts/data_ingestion/unzipped
 
 
 prepare_base_model:
